@@ -4,17 +4,17 @@ class A:
         print("")
 
 # define sub-class
-class C(A):
+class B(A):
     def suara(self):
         print("roar")
 
-class D(A):
+class C(A):
     def suara(self):
         print("meong")
 
 # execute
-obj_c = C()
-obj_c.suara()  # Output: roar
+objek_B = B()
+objek_B.suara()  # Output: roar
 
-obj_d = D()
-obj_d.suara()  # Output: meong
+objek_C = C()
+objek_C.suara()  # Output: meong
